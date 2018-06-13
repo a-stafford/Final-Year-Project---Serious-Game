@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1224455313522206}
+  m_IsPrefabParent: 1
+--- !u!1 &1224455313522206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4890756260804164}
+  - component: {fileID: 33424222681548416}
+  - component: {fileID: 23434785907441992}
+  m_Layer: 0
+  m_Name: BookShelf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4890756260804164
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1224455313522206}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23434785907441992
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1224455313522206}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: d9b3b17544fe2be458db403fb588e011, type: 2}
+  - {fileID: 2100000, guid: cfd72586acde9e64cb0e4f6d024eb890, type: 2}
+  - {fileID: 2100000, guid: 190f95cd40f41214084b1c4113ddb6a6, type: 2}
+  - {fileID: 2100000, guid: ea81a005099120943bb233845702060d, type: 2}
+  - {fileID: 2100000, guid: aed394e132023e54eac249f8a49e50cc, type: 2}
+  - {fileID: 2100000, guid: 31db5252178dea248a76c27c0f4ea3cc, type: 2}
+  - {fileID: 2100000, guid: 1d839919c15d8f04c8396358a708db6d, type: 2}
+  - {fileID: 2100000, guid: c09808a96eecffc4c86da1bc2e0eb976, type: 2}
+  - {fileID: 2100000, guid: 33ec76a7ad06aaf4295518782434a287, type: 2}
+  - {fileID: 2100000, guid: 3175c15b58e5aee4f9b7e5a486092113, type: 2}
+  - {fileID: 2100000, guid: 9ee6f713d910e0c4691b0bb30a217f47, type: 2}
+  - {fileID: 2100000, guid: 4428009d57556634fb43dfdea711807c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33424222681548416
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1224455313522206}
+  m_Mesh: {fileID: 4300006, guid: 6f6cd24b781aba148a15f2c9cb8566f2, type: 3}
